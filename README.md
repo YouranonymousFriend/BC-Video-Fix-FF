@@ -36,10 +36,10 @@ Screenshots:
 ------------
 
 Screenshot 1:
-<img src="https://github.com/YouranonymousFriend/BC-Video-Fix/blob/master/doc/img/01.png" />
+<img src="https://github.com/YouranonymousFriend/Bc-Video-Fix-FF/blob/master/doc/img/01.png" />
 
 Screenshot 2:
-<img src="https://github.com/YouranonymousFriend/BC-Video-Fix/blob/master/doc/img/02.png" />
+<img src="https://github.com/YouranonymousFriend/Bc-Video-Fix-FF/blob/master/doc/img/02.png" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
