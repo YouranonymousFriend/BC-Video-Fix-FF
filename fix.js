@@ -1,0 +1,27 @@
+document.getElementById("fixVideo").addEventListener('click', () => {
+
+    function modifyDOM() {
+        //You can play with your DOM here or check URL against your regex
+        return document.getElementById('player').innerHTML;
+    }
+
+    //We have permission to access the activeTab, so we can call browser .tabs.executeScript:
+    browser .tabs.executeScript({
+        code: '(' + modifyDOM + ')();' //argument here is a string but function.toString() returns function's code
+    }, (results) => {
+		fixedUrl = searchBuggyVideo(results[0]);
+		browser .tabs.update({url:fixedUrl});
+    });
+	
+});
+
+function searchBuggyVideo(dom) {
+	var regex = /<source.*?src='(.*?)'/;
+	dom = dom.replace(/ +(?= )/g,'');
+	dom = dom.replace(/(\r\n|\n|\r)/gm, "");
+	dom = dom.replace(/"/g, '\'');
+	var videosource = regex.exec(dom)[1];
+	splitSrc = videosource.split(/(seed\d\d\d)/);
+	returnUrl = videosource.replace(splitSrc[1], "seed126");
+	return returnUrl;
+}
