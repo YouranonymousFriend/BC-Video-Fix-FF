@@ -45,7 +45,7 @@ Screenshot 2:
 How-To use this extension to download a video:
 ----------------------------------------------
 
-1. After having installed the extension, click on the extensions icon (see screenshot 2)
+1. After having installed the extension, click on the extensions icon (see screenshot 1)
 2. After having done this, click on the "Fix Video!" button (see screenshot 2)
 4. You will be redirected to the fixed video
 5. Then click on the "Download Video!" button (see screenshot 3)
@@ -59,6 +59,26 @@ Screenshot 3:<br>
 
 Screenshot 4:<br>
 <img src="https://github.com/YouranonymousFriend/Bc-Video-Fix-FF/blob/master/doc/img/04.png" />
+
+How-To use this extension to search on an external search engine:
+-----------------------------------------------------------------
+
+1. After having installed the extension, click on the extensions icon (see screenshot 1)
+2. After having done this, select your search engine via the select box (see screenshot 5)
+3. After having done this, type your search query in the input field (see screenshot 6)
+4. After having done this, click on the "Search" button (see screenshot 7)
+
+Screenshots:
+------------
+
+Screenshot 5:<br>
+<img src="https://github.com/YouranonymousFriend/BC-Video-Fix-FF/blob/master/doc/img/05.png" />
+
+Screenshot 6:<br>
+<img src="https://github.com/YouranonymousFriend/BC-Video-Fix-FF/blob/master/doc/img/06.png" />
+
+Screenshot 7:<br>
+<img src="https://github.com/YouranonymousFriend/BC-Video-Fix-FF/blob/master/doc/img/07.png" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
