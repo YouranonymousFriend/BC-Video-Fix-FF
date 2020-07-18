@@ -54,10 +54,10 @@ How-To use this extension to download a video:
 Screenshots:
 ------------
 
-Screenshot 3:
+Screenshot 3:<br>
 <img src="https://github.com/YouranonymousFriend/Bc-Video-Fix-FF/blob/master/doc/img/03.png" />
 
-Screenshot 4:
+Screenshot 4:<br>
 <img src="https://github.com/YouranonymousFriend/Bc-Video-Fix-FF/blob/master/doc/img/04.png" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
