@@ -6,14 +6,38 @@ document.getElementById("fixVideo").addEventListener('click', () => {
     }
 
     //We have permission to access the activeTab, so we can call browser .tabs.executeScript:
-    browser .tabs.executeScript({
+    browser.tabs.executeScript({
         code: '(' + modifyDOM + ')();' //argument here is a string but function.toString() returns function's code
     }, (results) => {
 		fixedUrl = searchBuggyVideo(results[0]);
-		browser .tabs.update({url:fixedUrl});
+		browser.tabs.update({url:fixedUrl});
     });
 	
 });
+
+document.getElementById("dlVideo").addEventListener('click', () => {
+
+    function modifyDOM() {
+        //You can play with your DOM here or check URL against your regex
+        return document.getElementById('player').innerHTML;
+    }
+
+    //We have permission to access the activeTab, so we can call browser.tabs.executeScript:
+    browser.tabs.executeScript({
+        code: '(' + modifyDOM + ')();' //argument here is a string but function.toString() returns function's code
+    }, (results) => {
+		currentLocation = browser.tabs.query({currentWindow: true, active: true}).then(logTabs, console.error);
+    });
+	
+});
+
+// verbose variant
+function logTabs(tabs) {
+    let tab = tabs[0]; // Safe to assume there will only be one result
+	currentLocation = tab.url;
+	document.getElementById('download').href = currentLocation;
+	document.getElementById('download').click();
+}
 
 function searchBuggyVideo(dom) {
 	var regex = /<source.*?src='(.*?)'/;
