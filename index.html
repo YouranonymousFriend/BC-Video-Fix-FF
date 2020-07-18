@@ -2,12 +2,26 @@
 <html>
   <head>
     <title>BC Video Fix - for Firefox</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
     <h1>BC Video Fix - for Firefox</h1>
     <button id="fixVideo">Fix Video!</button>
+	<hr>
 	<button id="dlVideo">Download Video!</button>
 	<a href="#" download id="download">Save As (right-click here, after clicking the Download button)</a>
-	<script src="fix.js"></script>
+	<hr>
+	Search via an external search engine:<br>
+	<select id="selectSearchEngine">
+		<option value="duckduckgo">DuckDuckGo</option>	
+		<option value="google">Google</option>
+		<option value="bing">Bing</option>
+		<option value="qwant">Qwant</option>
+		<option value="yandex">Yandex</option>
+	</select>
+	<input id="myquery" name="myquery" placeholder="your search query">
+	<button id="search">Search</button>
+	<script src="js/fix.js"></script>
+	<script src="js/query.js"></script>
   </body>
 </html>

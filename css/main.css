@@ -1,0 +1,11 @@
+button, select, input {
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	font-weight: bold;
+}

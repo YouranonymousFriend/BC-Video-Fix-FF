@@ -1,0 +1,10 @@
+Changelog
+
+v0.3 (2020-07-18):
+Added a feature, that allows you to query on external search engines.
+
+v0.2 (2020-07-18):
+Added a feature, that allows you to download videos.
+
+v0.1 (2020-07-17):
+Initial creation. This version loads fixed versions of some buggy videos.
