@@ -7,7 +7,7 @@ FAQ:
 
 What does this tool?
 --------------------
-This tool fixes some bitchute videos, that do not load. Please note, that it can not fix all videos, but only fixes one specific bug.
+This tool fixes some bitchute videos, that do not load. Please note, that it can not fix all videos, but only fixes one specific bug. Furthermore, this tool allows you to download videos on bitchute. Moreover, you get the option to search on external search engines for a bitchute video.
 
 Which browsers are compatible?
 ------------------------------
