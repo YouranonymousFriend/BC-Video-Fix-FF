@@ -24,8 +24,8 @@ How-To install:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-How-To use this extension:
---------------------------
+How-To use this extension to fix a video:
+-----------------------------------------
 
 1. After having installed the extension, click on the extensions icon (see screenshot 1)
 2. After having done this, click on the "Fix Video!" button (see screenshot 2)
@@ -40,6 +40,16 @@ Screenshot 1:
 
 Screenshot 2:
 <img src="https://github.com/YouranonymousFriend/Bc-Video-Fix-FF/blob/master/doc/img/02.png" />
+
+
+How-To use this extension to download a video:
+----------------------------------------------
+
+1. After having installed the extension, click on the extensions icon (see screenshot 1)
+2. After having done this, click on the "Fix Video!" button (see screenshot 2)
+4. You will be redirected to the fixed video
+5. Then click on the "Download Video!" button
+6. Now right-click on the "Save As (right-click here, after clicking the Download button" link
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
