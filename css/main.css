@@ -9,3 +9,7 @@ h1 {
 body {
 	font-weight: bold;
 }
+
+#download {
+	display: none;
+}
