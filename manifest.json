@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-    "name":    "BC Video Fix for Firefox Plugin",
-    "version": "0.3.1",
+    "name":    "BC Video Fix FF",
+    "version": "0.3.1.1",
 
 	"browser_action": {
-    "default_title": "BC Video Fix for Firefox Plugin",
+    "default_title": "BC Video Fix FF",
     "default_popup": "index.html"
 	},
 	"permissions": [
