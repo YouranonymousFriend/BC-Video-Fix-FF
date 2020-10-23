@@ -1,4 +1,4 @@
-button, select, input {
+button, select {
 	width: 100%;
 }
 
@@ -10,6 +10,21 @@ body {
 	font-weight: bold;
 }
 
-#download {
-	display: none;
+button {
+	background-color: #008CBA;
+	color: #fff;
+	border: none;
+}
+
+#myquery {
+	margin: 2% 0;
+}
+
+#searchExplanationText {
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+#logoImgLeft {
+	float: left;
 }

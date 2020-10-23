@@ -1,8 +1,12 @@
 {
     "manifest_version": 2,
     "name":    "BC Video Fix for Firefox Plugin",
-    "version": "0.3.1",
-
+    "version": "0.4",
+	"icons": {
+		"16": "/img/icon/icon-16.png",
+		"48": "/img/icon/icon-48.png",
+		"128": "/img/icon/icon-128.png"
+    },
 	"browser_action": {
     "default_title": "BC Video Fix for Firefox Plugin",
     "default_popup": "index.html"
