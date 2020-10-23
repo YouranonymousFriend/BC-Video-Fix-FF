@@ -72,7 +72,11 @@ document.getElementById("dlVideo").addEventListener('click', () => {
 			document.getElementById("download").type = "video/mp4";
 			document.getElementById('download').style.display = 'block';
 			document.getElementById('download').click();
-			
+			theHTMLToInsert = 'You are now able to download the video by right-clicking on the download link and then clicking "save as". '+
+			'If you want to download another video afterwards, please open the new video, then refresh the page once again and then'+
+			'you will be able to generate the download link. Please note, that this refresh after opening the new video is necessary'+
+			'due to technical restrictions.';
+			document.body.insertAdjacentHTML("beforeend", theHTMLToInsert);
 		});
 	}
 });
